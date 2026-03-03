@@ -1,0 +1,16 @@
+{
+  "name": "homework-four",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}

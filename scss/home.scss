@@ -1,0 +1,145 @@
+.home{
+    .hero{
+        background-image: linear-gradient(rgba(0,0,0,0.5)),url(../images/hero.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .callout{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+            color: white;
+            h1{
+                margin-bottom: 26px;
+            }
+            .read-more-button{
+                margin-top: 50px;
+            }
+            p{
+                margin-bottom: 1px;
+            }
+
+            .read-more-button{
+                height:40px ;
+                width: 121px;
+                background-color: $button-bg-color;
+                color: $button-text-color;
+                border: none;
+                cursor: pointer;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+            }
+        }
+    }
+
+    .home-content{
+        max-width: 818px;
+        min-height: 200px;
+        margin: -43px auto 0 auto;
+        // background-color: yellow;
+
+        .promos{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+        }
+
+        .booking-form-holder{
+            margin-top: 20px;
+            .two-col-text-input{
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                input{
+                    width: 48%;
+                    height: 58px;
+                    padding: 0 16px;
+                }
+            }
+
+            .text-n-text-input{
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                input{
+                    width: 698px;
+                    height: 58px;
+                    padding: 0 16px;
+                }
+            }
+
+            .input-row{
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .input-row-section{
+                    display: flex;
+                    align-items: center;
+                    margin: 0 auto;
+                    
+                    
+
+                    input{
+                        margin-top: 20px;
+                        margin-left: 65px;
+                        width: 103px;
+                        height: 58px;
+                        padding: 0 16px;
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+            .message{
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                input{
+                    
+                    width: 818px;
+                    height: 192px;
+                    padding: 16px;
+                }
+            }
+
+            .submit-button{
+                margin-top: 37px;
+                margin-bottom: 100px;
+                height: 60px;
+                width: 818px;
+                background-color: $button-bg-color;
+                color: $button-text-color;
+                border: none;
+                cursor: pointer;
+                border-radius: 37px;
+
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-evenly;
+            }
+        }
+    }
+}

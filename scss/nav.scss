@@ -1,0 +1,120 @@
+header{
+    height: $nav-height;
+    width: $content-width;
+    // background-color: blue;
+
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    nav{
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .links{
+            // background-color: rgb(0, 0, 0);
+            height: 38px;
+            width: 500px;
+
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            .link-separation{
+                width: 0px;
+                height: 21.5px;
+                border: 1px solid #79ADDC;
+            }
+
+            a{
+                text-decoration: none;
+                color: $nav-text-color;
+            }
+        }
+        
+        .logo{
+            height: 40px;
+            width: 92px;
+            background-image: url(../images/logo-white.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .links2 {
+            // background-color: rgb(0, 0, 0);
+            height: 38px;
+            width: 500px;
+
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            .link-separation {
+                width: 0px;
+                height: 21.5px;
+                border: 1px solid #79ADDC;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        .logo2 {
+            height: 40px;
+            width: 92px;
+            background-image: url(../images/logo-black.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .line- {
+        width: 100%;
+    }
+
+    .line{
+        width: 100%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .line2 {
+        width: 100%;
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+}
+
+
+@media screen and (max-width:980px) {
+    header{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:630px) {
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:518px) {
+    .links{
+        max-width: 100%;
+    }
+}

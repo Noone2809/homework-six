@@ -1,0 +1,129 @@
+.tours{
+
+
+    .tours-hero {
+        margin: 142px auto 0 auto;
+        width: 981px;
+        height: 200px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        p{
+            font-size: 60px;
+        }
+    }
+
+
+    .tours-content{
+        max-width: 818px;
+        min-height: 200px;
+        margin: 0 auto;
+        // background-color: yellow;
+        margin-bottom: 100px;
+
+        .tours-image-braket{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            margin-top: 48px;
+
+            .tours-image{
+                width: 236px;
+                height: 304px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-color: red;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                flex-direction: column;
+
+                color: white;
+                
+
+                .tour-text{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    h1 {
+                        font-size: 40px;
+                    }
+                
+                    h2 {
+                        font-size: 22px;
+                    }
+                }
+                
+
+                .tour-button {
+                    height: 40px;
+                    width: 133px;
+                    background-color: #79ADDC;
+
+                    text-align: center;
+                    border-radius: 40px;
+                    cursor: pointer;
+                    padding: 10px ;
+
+                    color: white;
+                    text-decoration: none;
+
+                }
+
+                .tour-button:active {
+                    background-color: #366ba3;
+                }
+
+                &.img1{
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+                }
+
+                &.img2 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+                }
+
+                &.img3 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+                }
+
+                &.img4 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-04.jpg);
+                }
+
+                &.img5 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-05.jpg);
+                }
+
+                &.img6 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-06.jpg);
+                }
+
+                &.img7 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-07.jpg);
+                }
+
+                &.img8 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-08.jpg);
+                }
+
+                &.img9 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/tour-09.jpg);
+                }
+
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+
+@media screen and (max-width:950px) {
+    .home-content {
+        padding: 0 10px;
+        width: 90%;
+    }
+    .promos{
+        justify-content: space-between;
+    }
+
+
+    .two-col-text-input {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        flex-direction: column;
+        input {
+            min-width: 100%;
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .message{
+        input{
+            min-width: 100%;
+            margin-right: 20px;
+        }
+    }
+
+    .submit-button{
+        max-width: 100%;
+            margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:586px) {
+    .promos {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+}
